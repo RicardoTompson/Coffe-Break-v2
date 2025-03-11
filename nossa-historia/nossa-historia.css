@@ -1,0 +1,128 @@
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+
+.btn-custom {
+  background-color: #a2a183;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #686236;
+  transform: scale(1.05);
+  color: #fff;
+}
+
+/* Ajustes de acessibilidade */
+.navbar-nav .nav-link,
+.btn-outline-dark {
+  font-size: 18px; /* Aumenta a fonte para 18px */
+  color: #132d3a !important;
+}
+
+.btn-outline-132d3a {
+  color: #132d3a;
+  border-color: #132d3a;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-132d3a:hover {
+  background-color: #132d3a;
+  color: white !important;
+}
+
+.feedback {
+  margin-bottom: 1.5rem;
+}
+
+.feedback h5 {
+  font-weight: bold;
+  color: #132d3a;
+}
+
+.feedback p {
+  color: #555;
+}
+
+.feedback a {
+  color: #a2a183;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.feedback a:hover {
+  color: #686236;
+}
+/*---------------------------*/
+
+.btn-custom {
+  background-color: #a2a183;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #686236;
+  transform: scale(1.05);
+  color: #fff;
+}
+
+.feedback-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.feedback-stars {
+  color: #ffd700;
+}
+/* adicionado efeito */
+.feedback-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  perspective: 1000px; /* Para efeito 3D */
+}
+
+.feedback-card:hover {
+  transform: scale(1.05) rotateX(5deg) rotateY(5deg);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Efeito nas estrelas */
+.feedback-card:hover .feedback-stars {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Efeito na imagem do cliente */
+.feedback-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.feedback-card:hover img {
+  transform: rotate(-5deg) scale(1.1);
+}

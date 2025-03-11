@@ -1,0 +1,35 @@
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+
+.btn-custom {
+  background-color: #a2a183;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #686236;
+  transform: scale(1.05);
+  color: #fff;
+}
+/* Ajustes de acessibilidade */
+.navbar-nav .nav-link,
+.btn-outline-dark {
+  font-size: 18px; /* Aumenta a fonte para 18px */
+  color: #132d3a !important;
+}
+.btn-outline-132d3a {
+  color: #132d3a;
+  border-color: #132d3a;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.btn-outline-132d3a:hover {
+  background-color: #132d3a;
+  color: white !important;
+}
