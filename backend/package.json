@@ -8,7 +8,7 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ricardo Souza Tompson",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
